@@ -94,7 +94,7 @@ test:
 # NOTE: Cannot use --rm on Circle CI, hence the seemingly
 # duplicate task.
 
-test-effective-python: images/effective-c-plus-plus
+test-effective-c-plus-plus: images/effective-c-plus-plus
 	$(DOCKER_RUN_KAGGLE)
 
 teardown:
